@@ -17,7 +17,7 @@ The application's API token will live in the credentials section of your active 
 ![image](https://github.com/Joe-Seifert/google_api_etl/assets/111460270/566313d0-64d2-4efd-af50-1f1ec8d5f992)
 
 # Sample Workflow
-Create a folder in active directory (I called mine /resources) containing a json folder with the API toke from Google's API suite
+Create a folder in active directory (I called mine /resources) containing a json folder with the API token from Google's API suite.
 
 ![image](https://github.com/Joe-Seifert/google_api_etl/assets/111460270/5181184e-68f2-4e99-91f9-e113b156c531)
 
