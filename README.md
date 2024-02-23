@@ -23,7 +23,7 @@ Create a folder in active directory (I called mine /resources) containing a json
 
 The _token_fpath_ argument of the _authenticate()_ function will reference this file path.  If you put your token in the same file path as I did (relative to the active directory) you will not have to specify this.  
 
-Initialize the application by saving the output from the _authenticate()_ function to a variable, which will be used as the _auth_var_ argument in all future functions
+Initialize the application by saving the output from the _authenticate()_ function to a variable, which will be used as the _auth_var_ argument in all future functions.
 
 
 # todo
