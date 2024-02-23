@@ -41,7 +41,29 @@ Now, I want to search for all messages that I have labeled as "Michelle Memes." 
 
 ![image](https://github.com/Joe-Seifert/google_api_etl/assets/111460270/35acc50b-5027-4471-81af-c4d90a3d116e)
 
-Now that I have pinpointed the appropriate label ID, I 
+Now that I have pinpointed the appropriate label ID, I can use the _get_messages()_ function to get the list of all message IDs with this label.
+
+![image](https://github.com/Joe-Seifert/google_api_etl/assets/111460270/fe51f65d-63a2-4562-9f56-65e5d64a6b5d)
+
+This list is too long to scroll through in one sitting, so I would like to shorten it a bit.  I have already seen most of the memes that she has sent me, so I am going to look for only emails that are unread, looking at only unread memes.
+
+![image](https://github.com/Joe-Seifert/google_api_etl/assets/111460270/7b76f670-e6df-4ee9-8fb2-5d1e7d8b7eda)
+
+
+This list is much more managable.  Now I will use the _get_message_links()_ function to extract only the URLs from the email bodies listed.
+
+![image](https://github.com/Joe-Seifert/google_api_etl/assets/111460270/151e3029-fb06-4603-807e-87f573e9f5f5)
+
+
+The URL list is a bit sloppy, so I will use itertools.chain to remove the list nesting.
+
+![image](https://github.com/Joe-Seifert/google_api_etl/assets/111460270/d2f4c6f2-fb79-45e1-8516-a3d69d337196)
+
+
+Now the only thing left to do is open the links in a web browser.
+
+![image](https://github.com/Joe-Seifert/google_api_etl/assets/111460270/61816e34-888c-42bc-9d38-2214ee096eaa)
+
 
 # todo
 Set a default variable name for authenticate so that other functions will not require an explicitly defined _auth_var_
