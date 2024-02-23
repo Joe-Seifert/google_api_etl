@@ -19,4 +19,12 @@ The application's API token will live in the credentials section of your active 
 # Sample Workflow
 Create a folder in active directory (I called mine /resources) containing a json folder with the API toke from Google's API suite
 
-Always start any applicaiton with the authenticate function.  This will 
+![image](https://github.com/Joe-Seifert/google_api_etl/assets/111460270/5181184e-68f2-4e99-91f9-e113b156c531)
+
+The _token_fpath_ argument of the _authenticate()_ function will reference this file path.  If you put your token in the same file path as I did (relative to the active directory) you will not have to specify this.  
+
+Initialize the application by saving the output from the _authenticate()_ function to a variable, which will be used as the _auth_var_ argument in all future functions
+
+
+# todo
+Set a default variable name for authenticate so that other functions will not require an explicitly defined _auth_var_
