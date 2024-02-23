@@ -1,5 +1,5 @@
 # google_api_etl
-This repo contains all the tools necessary to build ETL pipelines from your gmail, capturing data such as...
+This repo contains tools necessary to build ETL pipelines from your gmail, capturing data such as...
 * hyperlinks in the body of email messages
 * category of message, as seen by user
 
